@@ -10,6 +10,7 @@ import com.example.employeecrud.service.EmployeeService;
 
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/employees")
 public class EmployeeController {
 
